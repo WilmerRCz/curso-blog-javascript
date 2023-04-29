@@ -1,0 +1,19 @@
+body{
+    background: url('../img/rojo.jpg');
+    background-attachment: fixed;/*Esta propiedad hace que la img se quede statica en el fondo y cuando se haga scroll no se mueva*/
+
+}
+
+#logo{
+    background: #ca3413;
+    
+}
+
+#menu ul li:hover{
+    background: #ca3413;
+}
+
+.button-more{
+    background: #ca3413;
+
+}

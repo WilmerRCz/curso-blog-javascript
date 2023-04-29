@@ -1,0 +1,19 @@
+body{
+    background: url('../img/cielo.jpg');
+    background-attachment: fixed;/*Esta propiedad hace que la img se quede statica en el fondo y cuando se haga scroll no se mueva*/
+
+}
+
+#logo{
+    background: #1f87c4;
+    
+}
+
+#menu ul li:hover{
+    background: #1f87c4;
+}
+
+.button-more{
+    background: #1f87c4;
+
+}
