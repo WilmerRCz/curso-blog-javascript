@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     //SLIDER
-    if(window.location.href.indexOf('index') >-1){
+    if(window.location.pathname === '/'){
       $('.galeria').bxSlider({
         mode: 'fade',
         captions: true,
@@ -14,7 +14,7 @@ $(document).ready(function(){
     }
 
     //POST
-    if(window.location.href.indexOf('index') >-1){
+    if(window.location.pathname === '/'){
       var posts = [
           {
               title: 'Prueba de titulo 1',
