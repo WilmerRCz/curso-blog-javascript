@@ -60,19 +60,19 @@ $(document).ready(function(){
       var theme = $('#theme');
 
       $('#to-green').click(function(){
-        theme.attr('href', 'css/green.css');//EL ATRIBUTO ATTR ES PARA CAMBIAR LA PROPIEDAD A UNA COSA
+        theme.attr('href', 'src/css/green.css');//EL ATRIBUTO ATTR ES PARA CAMBIAR LA PROPIEDAD A UNA COSA
       });
 
       $('#to-red').click(function(){
-        theme.attr('href', 'css/red.css');
+        theme.attr('href', 'src/css/red.css');
       });
 
       $('#to-blue').click(function(){
-        theme.attr('href', 'css/blue.css');
+        theme.attr('href', 'src/css/blue.css');
       });
 
       $('#to-black').click(function(){
-        theme.attr('href', 'css/black.css');
+        theme.attr('href', 'src/css/black.css');
       });
 
       //EVENTO SUBIR LA PAG
